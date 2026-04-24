@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="cnmA1Y0FXZG5R_Ymdryj">
+    <mxGraphModel dx="1406" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-2" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IO-jAFwUFA_VP8aBcZkN-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Alle ungeraden Zahlen zwischen 0 und 100 finden" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Ist die Zahl zweistellig ?" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-5" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IO-jAFwUFA_VP8aBcZkN-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="650" as="sourcePoint" />
+            <mxPoint x="615" y="807" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Sind die Ziffern unterschiedlich?" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-7" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="480" as="sourcePoint" />
+            <mxPoint x="600" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Zahl zwischen 0 und 100 ?" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="520" as="sourcePoint" />
+            <mxPoint x="840" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ende" vertex="1">
+          <mxGeometry height="80" width="160" x="840" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-11" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="970" as="sourcePoint" />
+            <mxPoint x="600" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-12" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Zahl weder durch 3&lt;br&gt;&amp;nbsp;noch durch 4 teilbar ?" vertex="1">
+          <mxGeometry height="80" width="160" x="520" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-13" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="1180" as="sourcePoint" />
+            <mxPoint x="600" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Zahl gefunden" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-15" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IO-jAFwUFA_VP8aBcZkN-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="680" />
+            </Array>
+            <mxPoint x="760" y="790" as="sourcePoint" />
+            <mxPoint x="810" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IO-jAFwUFA_VP8aBcZkN-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="840" />
+            </Array>
+            <mxPoint x="680" y="840" as="sourcePoint" />
+            <mxPoint x="730" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="1000" />
+            </Array>
+            <mxPoint x="680" y="1000" as="sourcePoint" />
+            <mxPoint x="920" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="1160" />
+            </Array>
+            <mxPoint x="660" y="1150" as="sourcePoint" />
+            <mxPoint x="920" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-19" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IO-jAFwUFA_VP8aBcZkN-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="630" as="sourcePoint" />
+            <mxPoint x="650" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nein" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ja" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ja" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ja" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ja" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nein" vertex="1">
+          <mxGeometry height="30" width="60" x="760" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="nein" vertex="1">
+          <mxGeometry height="30" width="60" x="767" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="IO-jAFwUFA_VP8aBcZkN-27" edge="1" parent="1" source="IO-jAFwUFA_VP8aBcZkN-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="1300" as="sourcePoint" />
+            <mxPoint x="660" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
